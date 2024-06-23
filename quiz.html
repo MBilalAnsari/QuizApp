@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz app</title>
+</head>
+
+<body onload="quizStart()" class="bg-quizbody">
+    <!-- Top -->
+    <div class="quizpage">
+        <h1 class="heading">Quiz Page</h1>
+    </div>
+    <div class="quizContainer" id="quizContainer">
+        <!-- Header -->
+        <div class="header">
+            <section>
+                <div>
+                    <span>Name :</span><span id="userName">Bilal</span>
+                </div>
+                <div>
+                    <span>Email :</span><span id="userEmail">Bilal@gmail.com</span>
+                </div>
+            </section>
+            <section>
+                <div class="timer">
+                    <br> 
+                    <span>Time : </span>
+                    <div class="timerdig">
+                        <span id="mintCount">00</span>:<span id="secCount" > 00</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- body  -->
+        <div class="body">
+            <div class="QA">
+                <h3 id="htmlQA">Q/A</h3>
+            </div>
+            <div>
+                <ol id="htmlOptions">
+                    <!-- <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li> -->
+                </ol>
+            </div>
+        </div>
+        <!-- Footer  -->
+        <div class="footer">
+            <div><span id="currCount">1</span>/<span id="totalCount">1</span></div>
+            <div>
+                <button onclick="nextQues()" id="nxtQbtn" class="hide">Continue</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="resultContainer hide" id="resultCont">
+        <div class="Aprreciate hideApr" id="cong" >
+            <h1>Congratz</h1>
+        </div>
+        <div class="Aprreciate hideApr" id="oops">
+            <h1>Try for Next</h1>
+        </div>
+
+        <div class="resultParent">         
+                <table border="2">
+                    <thead class="heading"> 
+                        <td>Wrong</td>
+                        <td>Correct</td>
+                    </thead>
+                    <tr>
+                        <td id="wrongCount"  class="td"></td>
+                        <td id="corrCount" class="td"></td>
+                    </tr>
+                    <thead  class="heading">
+                        <td >Percentage</td>
+                        <td >Status</td>
+                    </thead>
+                    <tr>
+                        <td id="showPercent" class="td"></td>
+                        <td id="showResult"  class="td"></td>
+                    </tr>
+                </table>   
+    </div>
+</body>
+<script src="./quiz.js"></script>
+
+</html>

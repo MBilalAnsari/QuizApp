@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz App</title>
+</head>
+
+<body class="bgbody" id="bgbody">
+    <!--  ...Heading... -->
+    <h1 class="heading">Quiz App</h1>
+    <!--  ....Body....  -->
+    <div class="sec-bd" id="formContainer">
+        <div class="inp-parent">
+            <input type="text" placeholder="Username" id="userName">
+            <br>
+            <span id="nameError" class="hide">Name Required!</span>
+            <br><br>
+            <input type="text" placeholder="Email" id="userEmail">
+            <br>
+            <span id="emailError" class="hide">Email Required!</span>
+            <br>
+            <button onclick="submitHandler()">
+                Submit
+            </button>
+        </div>
+    </div>
+
+    <!--  .....Footer..... -->
+    <div id="startContainer" class="hide">
+        <a href="./quiz.html"  >
+           <img src="./button-removebg-preview.png" alt="">
+        </a>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>

@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgbody {
+    background-image: url(./5075841.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgb(1, 2, 14) !important; */
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.quizStartcolor {
+    background: rgb(4, 9, 13);
+    background: radial-gradient(circle, rgba(4, 9, 13, 1) 0%, rgba(2, 30, 48, 1) 100%) !important;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-variant: small-caps;
+    font-size: calc(50px);
+}
+
+.sec-bd {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    background-color: #021e2589;
+    border-radius: 5px;
+    ;
+}
+
+.inp-parent input {
+    /* border: solid red; */
+    margin-top: 10px auto;
+}
+
+.inp-parent {
+    /* border: green 1px solid; */
+    padding: 30px;
+}
+
+.sec-bd button,
+input {
+    padding: 6px;
+    border-radius: 10px;
+
+}
+
+#startContainer {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 500px;
+}
+
+#startContainer img {
+    /* border: 1px solid rgb(18, 190, 78); */
+    font-size: large;
+    font-weight: calc(600);
+    width: 300px;
+    height: 200px;
+}
+
+.quizContainer {
+    border: 1px solid black;
+    margin: 30px auto;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.quizpage {
+    text-align: center;
+    margin: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 10px 10px 0;
+    padding: 20px;
+    background-color: #022634;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid;
+}
+
+.timer {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+.timerdig {
+    /* border:solid red; */
+    margin-left: 5px;
+    width: 20px;
+    text-align: center;
+}
+
+.body {
+    border: 1px solid black;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    background-color: #022634;
+    color: rgb(253, 253, 253);
+
+}
+
+.body ol li {
+    list-style: none;
+    padding: 10px 12px;
+    border-bottom: 5px solid white;
+    color: rgb(171, 199, 202);
+    font-size: calc(18px);
+    font-weight: 600;
+}
+
+.body ol li:hover {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body h3 {
+    margin: 0 0 5px 0;
+}
+
+.footer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 10px;
+    padding: 15px;
+    color: rgb(253, 253, 253);
+    border-top: 2px white solid;
+    background-color: #022634;
+}
+
+.footer button {
+    width: 100px;
+    height: 30px;
+}
+
+.corrAns {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(23, 119, 9);
+    font-weight: 300 !important;
+
+}
+
+.wrngAns {
+    color: rgb(99, 230, 219) !important;
+    background-color: rgb(223, 9, 9);
+    font-weight: 300 !important;
+}
+
+#htmlOptions {
+    cursor: pointer;
+}
+
+.resultContainer {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border: 5px solid black;
+}
+
+.bg-quizbody {
+    background: radial-gradient(circle, rgba(4, 9, 13, 1) 0%, rgba(2, 30, 48, 1) 100%) !important;
+}
+
+#resultCont {
+    color: wheat;
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid; */
+}
+.resultParent{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+.resultParent table thead td , tr{
+    text-align: center;
+    /* border: 1px solid red; */
+    background-color: #022634;
+    width: 200px;
+    height: 50px;
+}
+.resultParent table thead{
+    font-size: calc(30px);
+    background-color: #022634;
+    font-weight: bold;
+    /* color: #022634; */
+}
+.resultParent table{
+    background-color: aliceblue ;
+    
+}
+.td{
+    font-size: calc(20px);
+    font-family: monospace;
+    font-variant: normal;
+}
+.Aprreciate{
+    /* border: 1px solid; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.hideApr{
+    display: none;
+}
+.showApr{
+    visibility: visible ;
+    width: 100%;
+    margin: auto;
+    margin: 20px 0;
+    text-align: center;
+    color: rgb(255, 81, 0);
+}
